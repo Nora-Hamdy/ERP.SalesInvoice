@@ -29,15 +29,7 @@ Open the solution in Visual Studio 2022 or later.
 Restore NuGet packages if needed (Microsoft.Extensions.Configuration.Json).
 Create the database by running the SQL script in SQL Server (SSMS)
 
-Update the connection string in appsettings.json:
-Json
-Copy code
-{
-  "ConnectionStrings": {
-    "ERPConnection": "Server=.\\SQLEXPRESS;Database=ERP_SalesInvoice;Trusted_Connection=True;TrustServerCertificate=True;"
-  }
-}
-Build the project.
+Update the connection string in appsettings.json, build the project.
 
 Run the project. The Sales Invoice form will open:
 Select a customer from the ComboBox
