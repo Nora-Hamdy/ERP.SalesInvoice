@@ -46,12 +46,13 @@ Totals are calculated automatically
 Use Save, Edit, and Delete buttons to manage invoices
 
 ## 📁 Project Structure
-
+```text
 /DAL         → Data Access Layer (SQL operations)
 /BLL         → Business Logic Layer (validation, calculations)
 /Models      → Customer, Item, Invoice, InvoiceDetail classes
 /Forms       → WinForms UI (FrmSalesInvoice)
 /appsettings.json → Connection string configuration
+```
 
 ## ✅ Notes
 Invoice number is generated automatically when saving a new invoice
